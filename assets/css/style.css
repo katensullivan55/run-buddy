@@ -1,8 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
+    /* notes */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/* notes */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -13,6 +21,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    display: inline;
 }
 
 header a {
@@ -33,20 +42,6 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
-}
-
-header h1 {
-    font-weight:bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
-    display: inline;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 footer {
@@ -76,6 +71,7 @@ section {
     padding: 60px;
 }
 
+/* notes */
 .hero {
     background-image: url("../images/hero-bg.jpeg");
     height: 600px;
@@ -85,15 +81,16 @@ section {
 }
 
 .hero-form {
+    border: 3px solid #024e76;
     background-color: #fce138;
     padding: 20px;
     width: 500px;
     color: #024e76;
-    border-style: solid 3px #024e76;
     position: absolute;
     bottom: 120px;
     right: 140px;
 }
+/* notes */
 
 .hero-form h3 {
     font-size: 24px;
